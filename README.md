@@ -39,7 +39,7 @@ Legacy models are deprecated by OpenAI and may stop working. Reasoning tokens bi
 Requires [uv](https://docs.astral.sh/uv/) and an OpenAI API key.
 
 ```bash
-git clone [https://github.com/dsadrianzadeh/gpt_chess_arena.git](https://github.com/dsadrianzadeh/gpt_chess_arena.git)
+git clone https://github.com/dsadrianzadeh/gpt_chess_arena.git
 cd gpt_chess_arena
 uv sync
 ```
