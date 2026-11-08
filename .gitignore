@@ -16,3 +16,5 @@ output/
 *.pgn
 __pycache__/
 .pytest_cache/
+
+!docs/**/*.pgn

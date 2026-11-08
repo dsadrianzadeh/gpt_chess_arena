@@ -10,7 +10,7 @@ Any two OpenAI models play chess against each other. Pick the models in a web ap
 
 **Replay the game:** paste the PGN into [chess.com/analysis](https://www.chess.com/analysis).
 
-## How it works
+## How It Works
 
 1. The program shows the current models, the board, the FEN, the move history, and the list of legal moves.
 2. The model replies with a single line: `MOVE: <uci>`.
@@ -82,16 +82,22 @@ Games are saved as PGN files in `output/` (e.g., `20261108_004512_gpt-6-luna_vs_
 
 A game that reaches the half-move limit is recorded as a draw with termination `MOVE_LIMIT`. That is a rule of this program, not a draw under the rules of chess.
 
-## Project layout
+## Project Layout
 
 ```text
 gpt_chess_arena/
-├── src/gpt_chess_arena/
-│   ├── __init__.py
-│   └── main.py
+├── docs/
+│   └── example/
+│       └── game.pgn          # the game from the video
+├── src/
+│   └── gpt_chess_arena/
+│       ├── __init__.py
+│       └── main.py           # models, game loop, web app, tournament
+├── .gitignore
+├── .python-version
 ├── pyproject.toml
-├── uv.lock
-└── .env
+├── README.md
+└── uv.lock
 ```
 
 ## Notes
