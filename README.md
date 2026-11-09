@@ -86,13 +86,11 @@ A game that reaches the half-move limit is recorded as a draw with termination `
 
 ```text
 gpt_chess_arena/
-├── docs/
-│   └── example/
-│       └── 20261108_012543_gpt-6-luna_vs_gpt-6-luna.pgn  # the game from the video
-├── src/
-│   └── gpt_chess_arena/
-│       ├── __init__.py
-│       └── main.py  # models, game loop, web app, tournament
+├── docs/example/
+│   └── 20261108_012543_gpt-6-luna_vs_gpt-6-luna.pgn  # the game from the video
+├── src/gpt_chess_arena/
+│   ├── __init__.py
+│   └── main.py  # models, game loop, web app, tournament
 ├── .gitignore
 ├── .python-version
 ├── README.md
