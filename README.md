@@ -4,11 +4,11 @@ Any two OpenAI models play chess against each other. Pick the models in a web ap
 
 [![Watch the video](https://img.youtube.com/vi/jeHYvkHVPsA/maxresdefault.jpg)](https://youtu.be/jeHYvkHVPsA)
 
-**Demo video:** [GPT-6 Luna vs. GPT-6 Luna on YouTube](https://youtu.be/jeHYvkHVPsA). Two copies of `gpt-6-luna` play each other, and the game ends in a draw after 40 moves (80 half-moves).
+**Demo Video:** [GPT-6 Luna vs. GPT-6 Luna on YouTube](https://youtu.be/jeHYvkHVPsA). Two copies of `gpt-6-luna` play each other, and the game ends in a draw after 40 moves (80 half-moves).
 
-**Demo video (earlier version):** [Video of the original code on LinkedIn](https://lnkd.in/p/g4R-76pg).
+**Demo Video (Earlier Version):** [Video of the original code on LinkedIn](https://lnkd.in/p/g4R-76pg).
 
-**Replay the game:** paste the PGN into [chess.com/analysis](https://www.chess.com/analysis).
+**Replay the Game:** Paste the PGN into [chess.com/analysis](https://www.chess.com/analysis).
 
 ## How It Works
 
@@ -87,16 +87,16 @@ A game that reaches the half-move limit is recorded as a draw with termination `
 ```text
 gpt_chess_arena/
 ├── docs/
-│   └── example/
-│       └── game.pgn          # the game from the video
+│   └── example/
+│       └── 20261108_012543_gpt-6-luna_vs_gpt-6-luna.pgn          # the game from the video
 ├── src/
-│   └── gpt_chess_arena/
-│       ├── __init__.py
-│       └── main.py           # models, game loop, web app, tournament
+│   └── gpt_chess_arena/
+│       ├── __init__.py
+│       └── main.py                                               # models, game loop, web app, tournament
 ├── .gitignore
 ├── .python-version
-├── pyproject.toml
 ├── README.md
+├── pyproject.toml
 └── uv.lock
 ```
 
