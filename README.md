@@ -105,4 +105,4 @@ gpt_chess_arena/
 - Models can play illegal or weak moves. Results show how each model behaves under this prompt, not its true chess strength.
 - API keys stay in `.env`, which is ignored by Git.
 
-Built with Python, [python-chess](https://python-chess.readthedocs.io/), [Gradio](https://www.gradio.app/) and the [OpenAI API](https://platform.openai.com/).
+Built with Python, [python-chess](https://python-chess.readthedocs.io/), [Gradio](https://www.gradio.app/), and the [OpenAI API](https://platform.openai.com/).
